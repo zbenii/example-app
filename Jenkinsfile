@@ -6,7 +6,7 @@ node {
     }
 
     stage('Build image') {
-        app = docker.build('htl-leonding/example-app')
+        app = docker.build('zbenii/example-app')
     }
 
     stage('Push image') {
